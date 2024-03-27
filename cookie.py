@@ -10,13 +10,13 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.math import confusion_matrix
 import seaborn as sns
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
+#import torch
+#import torch.nn as nn
+#import torch.nn.functional as F
 tf.random.set_seed(3)
 
 
-folder_name = '/Users/woogu/Documents/Dataset_BUSI_with_GT'
+folder_name = os.getcwd() #'/Users/woogu/Documents/Dataset_BUSI_with_GT'
 files_names = ['benign', 'malignant', 'normal']
 
 for file in files_names:
@@ -32,8 +32,8 @@ for file in files_names:
             break
 
     plt.suptitle(file, fontsize=26)
-    plt.tight_layout()
-    plt.show()
+    #plt.tight_layout()
+    #plt.show()
     
 img_sz = [50, 100, 200, 300, 400, 500]
 plt.figure(figsize=(20, 5))
@@ -46,8 +46,8 @@ for i, sz in enumerate(img_sz):
 
 plt.show()
 
-#size (300*300) is okay
-img_sz=300
+#size (224*224) is okay
+img_sz=224
 
 
 training_data = []
@@ -118,14 +118,22 @@ from keras.layers import Flatten, Dense, Input
 
 
 model = keras.Sequential([
-                        keras.layers.Conv2D(256, (3, 3), activation='relu', input_shape=(300, 300, 1)),
-                        keras.layers.Conv2D(128, (3, 3), activation='relu'),
-                        keras.layers.Conv2D(64, (3, 3), activation='relu'),
+                        keras.layers.Conv2D(16, (3, 3), activation='relu', input_shape=(224, 224, 1)),
+                        keras.layers.MaxPooling2D(3),
                         keras.layers.Conv2D(32, (3, 3), activation='relu'),
-                        keras.layers.Conv2D(16, (3, 3), activation='relu'),
-                        keras.layers.Conv2D(8, (3, 3), activation='relu'),
-                        keras.layers.Conv2D(3, (3, 3), activation='softmax'),
-                        keras.layers.Flatten()
+                        keras.layers.MaxPooling2D(3),
+                        keras.layers.Conv2D(64, (3, 3), activation='relu'),
+                        keras.layers.MaxPooling2D(3),
+                        keras.layers.Conv2D(128, (3, 3), activation='relu'),
+                        #keras.layers.MaxPooling2D(3),
+                        keras.layers.Conv2D(256, (3, 3), activation='relu'),
+                        #keras.layers.MaxPooling2D(3),
+                        keras.layers.Conv2D(512, (3, 3), activation='relu'),
+                        #keras.layers.MaxPooling2D(3),
+                        #keras.layers.Conv2D(3, (3, 3), activation='softmax'),
+                        keras.layers.Flatten(),
+                        keras.layers.Dense(512, activation='relu'),
+                        keras.layers.Dense(3, activation='softmax')
 ])
 
 model.compile(optimizer='adam',
