@@ -36,7 +36,7 @@
 프로젝트 개요 : 프로젝트에 대한 전반적인 설명(어떤 내용의 문제를 해결하는지)
 
 조기 발견은 조기 사망자 수를 줄이는 데 도움이 됩니다. 
-
+(https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/img)
 
 
 필요한 라이브러리(버전) 또는 프로그램 목록
