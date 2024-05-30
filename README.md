@@ -1,4 +1,4 @@
-
+![image](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/assets/102576546/56b4ca93-9d0b-43c2-ac15-e2054bfbd0bf)
 # AI1
 
 줄 바꾸기는
@@ -35,7 +35,19 @@
 
 프로젝트 개요 : 프로젝트에 대한 전반적인 설명(어떤 내용의 문제를 해결하는지)
 
+조기 발견은 조기 사망자 수를 줄이는 데 도움이 됩니다. 
+
+
+
 필요한 라이브러리(버전) 또는 프로그램 목록
+numpy                            1.25.2
+pandas                           2.0.3
+torch                            2.3.0+cu121
+tensorflow                       2.15.0
+scikit-learn                     1.2.2
+matplotlib                       3.7.1
+opencv-python                    4.8.0.76
+
 
 추후 개선 사항 : 추가로 개선해야할 내용에 대해 정리 또는 프로젝트 한계점 설명
 
