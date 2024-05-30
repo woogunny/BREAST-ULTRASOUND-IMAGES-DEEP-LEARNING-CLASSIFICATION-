@@ -1,6 +1,6 @@
 # AI1 프로젝트
 
-${\textsf{\color{green}Green}}$	##### 안녕하세요
+##### 안녕하세요
 ![포켓몬 이미지](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/pocket.png)
 
 
@@ -17,7 +17,8 @@ ${\textsf{\color{green}Green}}$	##### 안녕하세요
 
 # 프로젝트 개요 
 
-## 조기 발견은 조기 사망자 수를 줄이는 데 도움이 됩니다. 
+## <u>조기 발견은 조기 사망자 수를 줄이는 데 도움이 됩니다.</u>
+ 
 
 
 ![포켓몬 이미지](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/example.png)
