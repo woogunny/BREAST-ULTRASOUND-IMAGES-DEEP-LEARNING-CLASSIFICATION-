@@ -1,6 +1,6 @@
 # AI1 프로젝트
-${\textsf{\color{green}Green}}$	
-##### 안녕하세요
+
+${\textsf{\color{green}Green}}$	##### 안녕하세요
 ![포켓몬 이미지](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/pocket.png)
 
 
