@@ -41,25 +41,25 @@
 + 필요한 라이브러리(버전) 또는 프로그램 목록
 
 
-++ numpy                            1.25.2
+  + numpy                            1.25.2
 
 
-++ pandas                           2.0.3
+  + pandas                           2.0.3
 
 
-++ torch                            2.3.0+cu121
+  + torch                            2.3.0+cu121
 
 
-++ tensorflow                       2.15.0
+  + tensorflow                       2.15.0
 
 
-++ scikit-learn                     1.2.2
+  + scikit-learn                     1.2.2
 
 
-++ matplotlib                       3.7.1
+  + matplotlib                       3.7.1
 
 
-++ opencv-python                    4.8.0.76
+  + opencv-python                    4.8.0.76
 
 
 
