@@ -32,7 +32,7 @@
 
 # **프로젝트 제목** 
 
-**BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION 유방암 초음파 영상 딥러닝 분류**
+## **BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION 유방암 초음파 영상 딥러닝 분류**
 
 
 *******
