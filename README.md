@@ -30,9 +30,15 @@
 
 <공통>
 
-# **프로젝트 제목** : **BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION 유방암 초음파 영상 딥러닝 분류**
+# **프로젝트 제목** 
+
+**BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION 유방암 초음파 영상 딥러닝 분류**
+
+
 *******
-# 프로젝트 개요 : 프로젝트에 대한 전반적인 설명(어떤 내용의 문제를 해결하는지)
+
+
+# 프로젝트 개요 
 
 조기 발견은 조기 사망자 수를 줄이는 데 도움이 됩니다. 
 
