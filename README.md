@@ -90,7 +90,7 @@
 
 # 실험 결과 : 모델 평가에 사용된 지표와 결과(표 또는 그래프)
 + First Ablation Study
-![example1](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/example.png)
+![example1](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/example1.png)
 
 + Second Ablation Study (After solving the data balance)
 ![example2](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/example.png)
