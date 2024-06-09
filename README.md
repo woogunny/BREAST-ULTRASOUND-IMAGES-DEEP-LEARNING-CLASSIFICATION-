@@ -1,10 +1,10 @@
 # AI1 프로젝트
 
-##### 안녕하세요👋😀
+##### 안녕하세요👋😀 Hi
 ![포켓몬 이미지](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/pocket.png)
 
 
-# **프로젝트 제목** 
+# **프로젝트 제목 Project title** 
 
 ## **BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION**
 
@@ -14,7 +14,7 @@
 *******
 
 
-# 프로젝트 개요 
+# 프로젝트 개요 Project Overview
 
 ## <u>조기 발견은 조기 사망자 수를 줄이는 데 도움이 됩니다.</u>
 
@@ -89,6 +89,8 @@
 
 
 # 실험 결과 : 모델 평가에 사용된 지표와 결과(표 또는 그래프)
+# Experimental Results: Indicators and results (table or graph) used for model evaluation
+
 + First Ablation Study
 ![example1](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/example1.png)
 
