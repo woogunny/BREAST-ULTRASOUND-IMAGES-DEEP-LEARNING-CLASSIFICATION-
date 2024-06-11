@@ -92,8 +92,7 @@ Model Description: Types of machine deep learning models used and reasons for se
 ![example1](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/example1.png)
 
 + Second Ablation Study (After solving the data balance)
-![example2](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/example.png)
-
+![example2](https://github.com/woogunny/BREAST-ULTRASOUND-IMAGES-DEEP-LEARNING-CLASSIFICATION-/blob/main/example2.png)
 
 
 
